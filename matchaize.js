@@ -1,7 +1,4 @@
-javascript: (function () {
-  // matcha.css Bookmarklet
-  // ---------------------
-
+(function () {
   const $$ = (selector) => document.querySelectorAll(selector);
   const createElement = (tagName, properties) =>
     Object.assign(document.createElement(tagName), properties);
